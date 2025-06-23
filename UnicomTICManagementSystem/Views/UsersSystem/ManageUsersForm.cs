@@ -24,7 +24,7 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
 
         private void LoadUsers()
         {
-            List<User> users = userController.GetAllUsers();
+            List<Users> users = userController.GetAllUsers();
             dgvUsers.DataSource = null;
             dgvUsers.DataSource = users;
             dgvUsers.Columns["Password"].Visible = false;  // Hide password column for security
@@ -35,7 +35,7 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
         {
             if (!ValidateInputs()) return;
 
-            var user = new User
+            var user = new Users
             {
                 Username = txtUsername.Text.Trim(),
                 Password = txtPassword.Text,
@@ -62,7 +62,7 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
             }
             if (!ValidateInputs()) return;
 
-            var user = new User
+            var user = new Users
             {
                 UserID = selectedUserId,
                 Username = txtUsername.Text.Trim(),
@@ -113,7 +113,7 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
         {
             if (dgvUsers.CurrentRow != null)
             {
-                var user = dgvUsers.CurrentRow.DataBoundItem as User;
+                var user = dgvUsers.CurrentRow.DataBoundItem as Users;
                 if (user != null)
                 {
                     selectedUserId = user.UserID;

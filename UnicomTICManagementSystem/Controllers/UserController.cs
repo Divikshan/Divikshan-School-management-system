@@ -8,12 +8,12 @@ namespace UnicomTICManagementSystem.Controllers
     {
         private readonly UserRepository userRepo = new UserRepository();
 
-        public List<User> GetAllUsers()
+        public List<Users> GetAllUsers()
         {
             return userRepo.GetAllUsers();
         }
 
-        public bool AddUser(User user)
+        public bool AddUser(Users user)
         {
             // Example validation before adding
             if (string.IsNullOrWhiteSpace(user.Username) || string.IsNullOrWhiteSpace(user.Password) || string.IsNullOrWhiteSpace(user.Role))
@@ -25,7 +25,7 @@ namespace UnicomTICManagementSystem.Controllers
             return true;
         }
 
-        public bool UpdateUser(User user)
+        public bool UpdateUser(Users user)
         {
             if (user.UserID <= 0)
                 return false;

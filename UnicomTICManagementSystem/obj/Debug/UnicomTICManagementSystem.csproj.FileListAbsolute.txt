@@ -26,3 +26,9 @@ C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.LecturerDashboardForm.resources
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.StaffDashboardForm.resources
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml

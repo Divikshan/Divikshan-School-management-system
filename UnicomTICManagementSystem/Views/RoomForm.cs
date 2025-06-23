@@ -16,14 +16,22 @@ namespace UnicomTICManagementSystem.Views
     {
         private RoomRepository roomRepo;
         private int selectedRoomId = -1;
+        private Form _parentForm; // ✅ ADDED for constructor overload
 
-        public RoomForm()  // ✅ FIXED: constructor name matches class name
+        public RoomForm()  // ✅ DEFAULT CONSTRUCTOR
         {
             InitializeComponent();
             roomRepo = new RoomRepository();
         }
 
-        private void RoomForm_Load(object sender, EventArgs e)  // ✅ FIXED: Load event handler name
+        // ✅ ADDED: Constructor that accepts parent form
+        public RoomForm(Form parentForm) : this()
+        {
+            _parentForm = parentForm;
+            this.FormClosed += (s, e) => _parentForm.Show();
+        }
+
+        private void RoomForm_Load(object sender, EventArgs e)
         {
             LoadRooms();
         }
@@ -111,7 +119,7 @@ namespace UnicomTICManagementSystem.Views
             if (dgvRooms.SelectedRows.Count > 0)
             {
                 var row = dgvRooms.SelectedRows[0];
-                selectedRoomId = Convert.ToInt32(row.Cells["RoomID"].Value);  // Use correct column name
+                selectedRoomId = Convert.ToInt32(row.Cells["RoomID"].Value);
                 txtRoomName.Text = row.Cells["RoomName"].Value.ToString();
                 cmbRoomType.SelectedItem = row.Cells["RoomType"].Value.ToString();
             }
@@ -121,5 +129,4 @@ namespace UnicomTICManagementSystem.Views
             }
         }
     }
-
 }

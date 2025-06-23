@@ -59,6 +59,7 @@
             this.BCourses.TabIndex = 1;
             this.BCourses.Text = "Manage Courses";
             this.BCourses.UseVisualStyleBackColor = true;
+            this.BCourses.Click += new System.EventHandler(this.BCourses_Click);
             // 
             // BSubject
             // 
@@ -68,6 +69,7 @@
             this.BSubject.TabIndex = 1;
             this.BSubject.Text = "Manage Subject";
             this.BSubject.UseVisualStyleBackColor = true;
+            this.BSubject.Click += new System.EventHandler(this.BSubjects_Click);
             // 
             // BStudent
             // 
@@ -77,6 +79,7 @@
             this.BStudent.TabIndex = 1;
             this.BStudent.Text = "Manage Student";
             this.BStudent.UseVisualStyleBackColor = true;
+            this.BStudent.Click += new System.EventHandler(this.BStudents_Click);
             // 
             // BExam
             // 
@@ -86,6 +89,7 @@
             this.BExam.TabIndex = 1;
             this.BExam.Text = "Manage Exam";
             this.BExam.UseVisualStyleBackColor = true;
+            this.BExam.Click += new System.EventHandler(this.BExams_Click);
             // 
             // BMarks
             // 
@@ -105,6 +109,7 @@
             this.BTimetable.TabIndex = 1;
             this.BTimetable.Text = "Manage Timetable";
             this.BTimetable.UseVisualStyleBackColor = true;
+            this.BTimetable.Click += new System.EventHandler(this.BTimetable_Click);
             // 
             // btnLogout
             // 
@@ -114,6 +119,7 @@
             this.btnLogout.TabIndex = 1;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.BLogout_Click);
             // 
             // BStaff
             // 
@@ -123,6 +129,7 @@
             this.BStaff.TabIndex = 1;
             this.BStaff.Text = "Manage Staff";
             this.BStaff.UseVisualStyleBackColor = true;
+            this.BStaff.Click += new System.EventHandler(this.BStaff_Click);
             // 
             // BLecturers
             // 
@@ -132,6 +139,7 @@
             this.BLecturers.TabIndex = 1;
             this.BLecturers.Text = "Manage Lecturers";
             this.BLecturers.UseVisualStyleBackColor = true;
+            this.BLecturers.Click += new System.EventHandler(this.BLecturers_Click);
             // 
             // BRoom
             // 
@@ -141,7 +149,7 @@
             this.BRoom.TabIndex = 1;
             this.BRoom.Text = "Manage Room";
             this.BRoom.UseVisualStyleBackColor = true;
-            this.BRoom.Click += new System.EventHandler(this.BMarks_Click_1);
+            this.BRoom.Click += new System.EventHandler(this.BRoom_Click_1);
             // 
             // AdminDashboardForm
             // 

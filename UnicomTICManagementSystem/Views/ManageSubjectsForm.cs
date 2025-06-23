@@ -15,8 +15,7 @@ namespace UnicomTICManagementSystem.Views
         public ManageSubjectsForm()
         {
             InitializeComponent();
-            LoadCourses();
-            LoadSubjects();
+            this.Load += ManageSubjectsForm_Load; // keep form load event
         }
 
         private void ManageSubjectsForm_Load(object sender, EventArgs e)
@@ -46,6 +45,12 @@ namespace UnicomTICManagementSystem.Views
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtSubject.Text))
+            {
+                MessageBox.Show("Please enter a subject name.", "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             var subject = new Subject
             {
                 SubjectName = txtSubject.Text.Trim(),
@@ -60,6 +65,12 @@ namespace UnicomTICManagementSystem.Views
         {
             if (dgvSubject.SelectedRows.Count > 0)
             {
+                if (string.IsNullOrWhiteSpace(txtSubject.Text))
+                {
+                    MessageBox.Show("Please enter a subject name.", "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 var subject = new Subject
                 {
                     SubjectID = Convert.ToInt32(dgvSubject.SelectedRows[0].Cells["SubjectID"].Value),
@@ -83,7 +94,7 @@ namespace UnicomTICManagementSystem.Views
             }
         }
 
-        private void dgvSubjects_SelectionChanged(object sender, EventArgs e)
+        private void dgvSubject_SelectionChanged(object sender, EventArgs e)
         {
             if (dgvSubject.SelectedRows.Count > 0)
             {

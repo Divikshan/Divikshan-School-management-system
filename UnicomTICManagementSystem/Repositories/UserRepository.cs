@@ -8,9 +8,9 @@ namespace UnicomTICManagementSystem.Repositories
 {
     public class UserRepository
     {
-        public List<User> GetAllUsers()
+        public List<Users> GetAllUsers()
         {
-            var users = new List<User>();
+            var users = new List<Users>();
             using (var conn = DatabaseManager.GetConnection())
             {
                 string query = "SELECT UserID, Username, Password, Role FROM Users";
@@ -19,7 +19,7 @@ namespace UnicomTICManagementSystem.Repositories
                 {
                     while (reader.Read())
                     {
-                        users.Add(new User
+                        users.Add(new Users
                         {
                             UserID = Convert.ToInt32(reader["UserID"]),
                             Username = reader["Username"].ToString(),
@@ -32,7 +32,7 @@ namespace UnicomTICManagementSystem.Repositories
             return users;
         }
 
-        public void AddUser(User user)
+        public void AddUser(Users user)
         {
             using (var conn = DatabaseManager.GetConnection())
             {
@@ -47,7 +47,7 @@ namespace UnicomTICManagementSystem.Repositories
             }
         }
 
-        public void UpdateUser(User user)
+        public void UpdateUser(Users user)
         {
             using (var conn = DatabaseManager.GetConnection())
             {

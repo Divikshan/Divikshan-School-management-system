@@ -62,12 +62,12 @@ namespace UnicomTICManagementSystem.Views
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var student = new Student
+            var student = new Students
             {
                 StudentName = txtName.Text.Trim(),
                 Username = txtUsername.Text.Trim(),
                 Password = txtPassword.Text.Trim(),
-                CourseId = Convert.ToInt32(cmbCourse.SelectedValue)
+                CourseID = Convert.ToInt32(cmbCourse.SelectedValue)
             };
             studentController.AddStudent(student);
             LoadStudents();
@@ -78,13 +78,13 @@ namespace UnicomTICManagementSystem.Views
         {
             if (dgvStudents.SelectedRows.Count > 0)
             {
-                var student = new Student
+                var student = new Students
                 {
-                    StudentId = Convert.ToInt32(dgvStudents.SelectedRows[0].Cells["vStudentId"].Value),
+                    StudentID = Convert.ToInt32(dgvStudents.SelectedRows[0].Cells["vStudentId"].Value),
                     StudentName = txtName.Text.Trim(),
                     Username = txtUsername.Text.Trim(),
                     Password = txtPassword.Text.Trim(),
-                    CourseId = Convert.ToInt32(cmbCourse.SelectedValue)
+                    CourseID = Convert.ToInt32(cmbCourse.SelectedValue)
                 };
                 studentController.UpdateStudent(student);
                 LoadStudents();

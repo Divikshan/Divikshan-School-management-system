@@ -34,7 +34,7 @@ namespace UnicomTICManagementSystem.Views
             }
 
             // Try student login
-            Student student = AuthenticateStudent(username, password);
+            Students student = AuthenticateStudent(username, password);
             if (student != null)
             {
                 var connection = new SQLiteConnection(connectionString);
@@ -78,9 +78,9 @@ namespace UnicomTICManagementSystem.Views
             txtUsername.Focus();
         }
 
-        private Student AuthenticateStudent(string username, string password)
+        private Students AuthenticateStudent(string username, string password)
         {
-            Student student = null;
+            Students student = null;
 
             using (var conn = new SQLiteConnection(connectionString))
             {
@@ -96,13 +96,13 @@ namespace UnicomTICManagementSystem.Views
                     {
                         if (reader.Read())
                         {
-                            student = new Student
+                            student = new Students
                             {
-                                StudentId = Convert.ToInt32(reader["StudentID"]),
+                                StudentID = Convert.ToInt32(reader["StudentID"]),
                                 StudentName = reader["Name"].ToString(),
                                 Username = reader["Username"].ToString(),
                                 Password = reader["Password"].ToString(),
-                                CourseId = Convert.ToInt32(reader["CourseID"])
+                                CourseID = Convert.ToInt32(reader["CourseID"])
                             };
                         }
                     }

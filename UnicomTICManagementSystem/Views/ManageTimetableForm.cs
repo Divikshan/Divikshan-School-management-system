@@ -15,7 +15,7 @@ namespace UnicomTICManagementSystem.Views
         private TimetableController timetableController = new TimetableController();
         private List<Course> courses;
         private List<Subject> subjects;
-        private List<User> lecturers;
+        private List<Users> lecturers;
         private Form parentForm;
 
         public ManageTimetableForm(Form parent = null)
@@ -65,7 +65,7 @@ namespace UnicomTICManagementSystem.Views
 
         private void LoadLecturers()
         {
-            lecturers = new List<User>();
+            lecturers = new List<Users>();
             using (var connection = DatabaseManager.GetConnection())
             {
                 connection.Open();
@@ -75,7 +75,7 @@ namespace UnicomTICManagementSystem.Views
                 {
                     while (reader.Read())
                     {
-                        lecturers.Add(new User
+                        lecturers.Add(new Users
                         {
                             UserID = Convert.ToInt32(reader["UserID"]),
                             Username = reader["Username"].ToString(),

@@ -18,9 +18,10 @@ namespace UnicomTICManagementSystem.Views
 
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            // Register form load event
-            this.Load += ManageCoursesForm_Load;
+
         }
+
+
 
         private void ManageCoursesForm_Load(object sender, EventArgs e)
         {
@@ -31,6 +32,7 @@ namespace UnicomTICManagementSystem.Views
         {
             dgvCourses.DataSource = null;
             dgvCourses.DataSource = courseController.GetAllCourses();
+            dgvCourses.ClearSelection();
         }
 
         private void ClearInputs()
@@ -40,28 +42,32 @@ namespace UnicomTICManagementSystem.Views
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txtCourses.Text))
+            if (string.IsNullOrWhiteSpace(txtCourses.Text))
             {
-                var course = new Course
-                {
-                    CourseName = txtCourses.Text.Trim()
-                };
-                courseController.AddCourse(course);
-                LoadCourses();
-                ClearInputs();
+                MessageBox.Show("Course name cannot be empty.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            var course = new Course { CourseName = txtCourses.Text.Trim() };
+            courseController.AddCourse(course);
+            LoadCourses();
+            ClearInputs();
         }
+
+
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (dgvCourses.SelectedRows.Count > 0)
+            if (dgvCourses.SelectedRows.Count == 0)
             {
-                var course = new Course
-                {
-                    CourseID = Convert.ToInt32(dgvCourses.SelectedRows[0].Cells["CourseID"].Value),
-                    CourseName = txtCourses.Text.Trim()
-                };
-                courseController.UpdateCourse(course);
+                MessageBox.Show("Please select a course to update.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (dgvCourses.SelectedRows[0].DataBoundItem is Course selectedCourse)
+            {
+                selectedCourse.CourseName = txtCourses.Text.Trim();
+                courseController.UpdateCourse(selectedCourse);
                 LoadCourses();
                 ClearInputs();
             }
@@ -69,10 +75,15 @@ namespace UnicomTICManagementSystem.Views
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (dgvCourses.SelectedRows.Count > 0)
+            if (dgvCourses.SelectedRows.Count == 0)
             {
-                int id = Convert.ToInt32(dgvCourses.SelectedRows[0].Cells["CourseID"].Value);
-                courseController.DeleteCourse(id);
+                MessageBox.Show("Please select a course to delete.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (dgvCourses.SelectedRows[0].DataBoundItem is Course selectedCourse)
+            {
+                courseController.DeleteCourse(selectedCourse.CourseID);
                 LoadCourses();
                 ClearInputs();
             }
@@ -80,16 +91,16 @@ namespace UnicomTICManagementSystem.Views
 
         private void dgvCourses_SelectionChanged(object sender, EventArgs e)
         {
-            if (dgvCourses.SelectedRows.Count > 0)
+            if (dgvCourses.SelectedRows.Count > 0 && dgvCourses.SelectedRows[0].DataBoundItem is Course selectedCourse)
             {
-                txtCourses.Text = dgvCourses.SelectedRows[0].Cells["CourseName"].Value.ToString();
+                txtCourses.Text = selectedCourse.CourseName;
             }
         }
 
         private void btnBackToDashboard_Click(object sender, EventArgs e)
         {
-            this.Close();        // Close this form
-            adminForm.Show();    // Show the Admin Dashboard again
+            this.Close();
+            adminForm.Show();
         }
     }
 }

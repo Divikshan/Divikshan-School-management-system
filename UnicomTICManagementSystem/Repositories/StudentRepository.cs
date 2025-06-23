@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Security.Cryptography;
 using System.Text;
@@ -10,44 +11,40 @@ namespace UnicomTICManagementSystem.Repositories
     {
         private readonly string connectionString = "Data Source=DBconnection.db";
 
-        public void AddStudent(Student student)
+        public void AddStudent(Students student)
         {
-            if (student == null) return;
-
             using (var conn = new SQLiteConnection(connectionString))
             {
                 conn.Open();
-                string query = @"INSERT INTO Students (StudentName, Username, Password, CourseId) 
-                               VALUES (@StudentName, @Username, @Password, @CourseId)";
+                string query = @"INSERT INTO Students (StudentName, Username, Password, CourseID) 
+                               VALUES (@StudentName, @Username, @Password, @CourseID)";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@StudentName", student.StudentName);
                     cmd.Parameters.AddWithValue("@Username", student.Username);
-                    cmd.Parameters.AddWithValue("@Password", HashPassword(student.Password)); // Added hashing
-                    cmd.Parameters.AddWithValue("@CourseId", student.CourseId);
+                    cmd.Parameters.AddWithValue("@Password", HashPassword(student.Password));
+                    cmd.Parameters.AddWithValue("@CourseID", student.CourseID);
                     cmd.ExecuteNonQuery();
                 }
             }
         }
 
-        public void UpdateStudent(Student student)
+        public void UpdateStudent(Students student)
         {
-            if (student == null) return;
-
             using (var conn = new SQLiteConnection(connectionString))
             {
                 conn.Open();
                 string query = @"UPDATE Students 
                                SET StudentName=@StudentName, Username=@Username, 
-                                   Password=@Password, CourseId=@CourseId 
-                               WHERE StudentId=@StudentId";
+                                   Password=@Password, CourseID=@CourseID 
+                               WHERE StudentID=@StudentID";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@StudentName", student.StudentName);
                     cmd.Parameters.AddWithValue("@Username", student.Username);
-                    cmd.Parameters.AddWithValue("@Password", HashPassword(student.Password)); // Added hashing
-                    cmd.Parameters.AddWithValue("@CourseId", student.CourseId);
-                    cmd.Parameters.AddWithValue("@StudentId", student.StudentId);
+                    cmd.Parameters.AddWithValue("@Password", HashPassword(student.Password));
+                    cmd.Parameters.AddWithValue("@CourseID", student.CourseID);
+                    cmd.Parameters.AddWithValue("@StudentID", student.StudentID);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -58,37 +55,33 @@ namespace UnicomTICManagementSystem.Repositories
             using (var conn = new SQLiteConnection(connectionString))
             {
                 conn.Open();
-                string query = "DELETE FROM Students WHERE StudentId=@StudentId";
+                string query = "DELETE FROM Students WHERE StudentID=@StudentID";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@StudentId", id);
+                    cmd.Parameters.AddWithValue("@StudentID", id);
                     cmd.ExecuteNonQuery();
                 }
             }
         }
 
-        public List<Student> GetAllStudents()
+        public List<Students> GetAllStudents()
         {
-            var students = new List<Student>();
+            var students = new List<Students>();
             using (var conn = new SQLiteConnection(connectionString))
             {
                 conn.Open();
-                string query = @"SELECT s.StudentId, s.StudentName, s.Username, s.Password, 
-                                       s.CourseId, c.CourseName 
-                                FROM Students s 
-                                JOIN Course c ON s.CourseId = c.CourseId";
+                string query = "SELECT StudentID, StudentName, Username, CourseID FROM Students";
                 using (var cmd = new SQLiteCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        students.Add(new Student
+                        students.Add(new Students
                         {
-                            StudentId = reader.GetInt32(0),
+                            StudentID = reader.GetInt32(0),
                             StudentName = reader.GetString(1),
                             Username = reader.GetString(2),
-                            Password = string.Empty, // Don't return actual password
-                            CourseId = reader.GetInt32(4)
+                            CourseID = reader.GetInt32(3)
                         });
                     }
                 }
@@ -101,7 +94,7 @@ namespace UnicomTICManagementSystem.Repositories
             using (var sha256 = SHA256.Create())
             {
                 byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                return Encoding.UTF8.GetString(hashedBytes);
+                return Convert.ToBase64String(hashedBytes);
             }
         }
     }

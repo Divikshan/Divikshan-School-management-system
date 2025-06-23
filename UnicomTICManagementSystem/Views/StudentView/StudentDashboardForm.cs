@@ -12,10 +12,10 @@ namespace UnicomTICManagementSystem.Views
 
        
 
-        private readonly Student _student;
+        private readonly Students _student;
         private readonly SQLiteConnection _connection;
 
-        public StudentDashboardForm(Student student, SQLiteConnection connection)
+        public StudentDashboardForm(Students student, SQLiteConnection connection)
         {
             InitializeComponent();
             _student = student;
@@ -34,19 +34,20 @@ namespace UnicomTICManagementSystem.Views
         {
             LoadMarks();
             LoadTimetable();
+            
         }
-        
+
         private void LoadMarks()
         {
             var marksRepo = new MarksRepository(_connection);
-            List<Marks> marks = marksRepo.GetMarksByStudentId(_student.StudentId);
+            List<Marks> marks = marksRepo.GetMarksByStudentId(_student.StudentID);
             dgvMarks.DataSource = marks;
         }
 
         private void LoadTimetable()
         {
             var timetableRepo = new TimetableRepository(_connection);
-            List<Timetable> timetable = timetableRepo.GetTimetableByCourseId(_student.CourseId);
+            List<Timetable> timetable = timetableRepo.GetTimetableByCourseId(_student.CourseID);
             dgvTimetable.DataSource = timetable;
         }
     }

@@ -2,30 +2,16 @@
 {
     partial class ManageCoursesForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
+            if (disposing && (components != null)) components.Dispose();
             base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
@@ -62,6 +48,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add ";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -71,6 +58,7 @@
             this.btnUpdate.TabIndex = 2;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -80,6 +68,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvCourses
             // 
@@ -91,6 +80,7 @@
             this.dgvCourses.RowTemplate.Height = 24;
             this.dgvCourses.Size = new System.Drawing.Size(699, 218);
             this.dgvCourses.TabIndex = 3;
+            this.dgvCourses.SelectionChanged += new System.EventHandler(this.dgvCourses_SelectionChanged);
             // 
             // btnBackToDashboard
             // 
@@ -100,6 +90,7 @@
             this.btnBackToDashboard.TabIndex = 2;
             this.btnBackToDashboard.Text = "Back";
             this.btnBackToDashboard.UseVisualStyleBackColor = true;
+            this.btnBackToDashboard.Click += new System.EventHandler(this.btnBackToDashboard_Click);
             // 
             // ManageCoursesForm
             // 
@@ -120,7 +111,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCourses)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

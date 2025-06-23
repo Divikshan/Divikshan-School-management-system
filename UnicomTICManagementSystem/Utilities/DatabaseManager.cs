@@ -57,23 +57,23 @@ namespace UnicomTICManagementSystem.Utilities
 
                     // Create tables
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Users (
+                        CREATE TABLE IF NOT EXISTS Users (
                             UserID INTEGER PRIMARY KEY AUTOINCREMENT,
                             Username TEXT NOT NULL UNIQUE,
                             Password TEXT NOT NULL,
-                            Role TEXT NOT NULL
+                            Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Lecturer', 'Staff', 'Student'))
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Lecturers (
+                        CREATE TABLE IF NOT EXISTS Lecturers (
                             LecturerID INTEGER PRIMARY KEY AUTOINCREMENT,
                             Name TEXT NOT NULL,
                             UserID INTEGER UNIQUE,
-                            FOREIGN KEY(UserID) REFERENCES Users(UserID)
+                            FOREIGN KEY(UserID) REFERENCES Users(UserID) ON DELETE CASCADE
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Staff (
+                        CREATE TABLE IF NOT EXISTS Staff (
                             StaffID INTEGER PRIMARY KEY AUTOINCREMENT,
                             Name TEXT NOT NULL,
                             UserID INTEGER UNIQUE,
@@ -81,70 +81,74 @@ namespace UnicomTICManagementSystem.Utilities
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Courses (
+                        CREATE TABLE IF NOT EXISTS Courses (
                             CourseID INTEGER PRIMARY KEY AUTOINCREMENT,
                             CourseName TEXT NOT NULL
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Subjects (
+                        CREATE TABLE IF NOT EXISTS Subjects (
                             SubjectID INTEGER PRIMARY KEY AUTOINCREMENT,
                             SubjectName TEXT NOT NULL,
+                            CourseID INTEGER NOT NULL,
+                            FOREIGN KEY(CourseID) REFERENCES Courses(CourseID) ON DELETE CASCADE
+                        )");
+
+                    // In the InitializeDatabase() method, find the Students table creation code
+                    ExecuteNonQuery(connection, @"
+                        CREATE TABLE IF NOT EXISTS Students (
+                            StudentID INTEGER PRIMARY KEY AUTOINCREMENT,
+                            StudentName TEXT NOT NULL,
+                            Username TEXT NOT NULL UNIQUE,
+                            Password TEXT NOT NULL, 
                             CourseID INTEGER NOT NULL,
                             FOREIGN KEY(CourseID) REFERENCES Courses(CourseID)
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Students (
-                            vStudentId INTEGER PRIMARY KEY AUTOINCREMENT,
-                            StudentName TEXT NOT NULL,
-                            Username TEXT NOT NULL UNIQUE,
-                            Password TEXT NOT NULL,
-                            CourseId INTEGER NOT NULL,
-                            FOREIGN KEY(CourseId) REFERENCES Course(CourseId)
-                        )");
-
-                    ExecuteNonQuery(connection, @"
-                        CREATE TABLE Rooms (
+                        CREATE TABLE IF NOT EXISTS Rooms (
                             RoomID INTEGER PRIMARY KEY AUTOINCREMENT,
-                            RoomName TEXT NOT NULL,
-                            RoomType TEXT NOT NULL
+                            RoomName TEXT NOT NULL UNIQUE,
+                            RoomType TEXT NOT NULL CHECK (RoomType IN ('Lab', 'Hall', 'Classroom'))
                         )");
 
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Exams (
+                        CREATE TABLE IF NOT EXISTS Exams (
                             ExamID INTEGER PRIMARY KEY AUTOINCREMENT,
                             ExamName TEXT NOT NULL,
                             SubjectID INTEGER NOT NULL,
-                            FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
+                            FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID) ON DELETE CASCADE
                         )");
 
                     ExecuteNonQuery(connection, @"
                         CREATE TABLE IF NOT EXISTS Marks (
                             MarkID INTEGER PRIMARY KEY AUTOINCREMENT,
-                            StudentID INTEGER,
-                            SubjectID INTEGER,
-                            ExamID INTEGER,
-                            MarksObtained INTEGER,
-                            FOREIGN KEY(StudentID) REFERENCES Students(StudentId),
-                            FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID),
+                            StudentID INTEGER NOT NULL,
+                            SubjectID INTEGER ,
+                            ExamID INTEGER NOT NULL,
+                            MarksObtained INTEGER NOT NULL,
+                            FOREIGN KEY(StudentID) REFERENCES Students(StudentID)ON DELETE CASCADE,
+                            FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)ON DELETE CASCADE,
                             FOREIGN KEY(ExamID) REFERENCES Exams(ExamID)
                         )");
 
 
                     // FIXED foreign key here:
                     ExecuteNonQuery(connection, @"
-                        CREATE TABLE Timetables (
+                        CREATE TABLE IF NOT EXISTS Timetables (
                             TimetableID INTEGER PRIMARY KEY AUTOINCREMENT,
                             CourseID INTEGER NOT NULL,
                             SubjectID INTEGER NOT NULL,
                             LecturerID INTEGER NOT NULL,
-                            Date TEXT NOT NULL,
-                            TimeSlot TEXT NOT NULL,
-                            Location TEXT NOT NULL,
-                            FOREIGN KEY(CourseID) REFERENCES Courses(CourseID),
-                            FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID),
-                            FOREIGN KEY(LecturerID) REFERENCES Lecturers(LecturerID)
+                            DayOfWeek TEXT NOT NULL CHECK (DayOfWeek IN ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')),
+                            StartTime TEXT NOT NULL,  -- Store as 'HH:MM' format
+                            EndTime TEXT NOT NULL,
+                            RoomID INTEGER NOT NULL,
+                            FOREIGN KEY (CourseID) REFERENCES Courses(CourseID),
+                            FOREIGN KEY (SubjectID) REFERENCES Subjects(SubjectID),
+                            FOREIGN KEY (LecturerID) REFERENCES Lecturers(LecturerID),
+                            FOREIGN KEY (RoomID) REFERENCES Rooms(RoomID),
+                            UNIQUE (RoomID, DayOfWeek, StartTime)
                         )");
 
                     // Insert default admin user (password stored as plain text, consider hashing for production)

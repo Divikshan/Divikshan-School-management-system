@@ -3,44 +3,168 @@
   "WorkspaceRootPath": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|c:\\users\\divik\\onedrive\\documents\\assingment\\unicomticmanagementsystem\\utilities\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:utilities\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managecoursesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managecoursesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|c:\\users\\divik\\onedrive\\documents\\assingment\\unicomticmanagementsystem\\views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managecoursesform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managecoursesform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\loginsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\admin\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\lecturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\lecturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|c:\\users\\divik\\onedrive\\documents\\assingment\\unicomticmanagementsystem\\views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|c:\\users\\divik\\onedrive\\documents\\assingment\\unicomticmanagementsystem\\views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\staffview\\staffdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\utilities\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:utilities\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +179,12 @@
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\markrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\lecturer\\lacturerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\lecturer\\lacturerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\lecturer\\lacturerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\lecturer\\lacturerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\admin\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,16 +195,8 @@
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\lecturer\\lacturerdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\lecturer\\lacturerdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\lecturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\lecturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,34 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\timetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\timetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentview\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managemarksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\userssystem\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -151,36 +223,12 @@
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\markscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\markscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -195,80 +243,32 @@
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\utilities\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:utilities\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\userssystem\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\userssystem\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\utilities\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:utilities\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\lecturer\\managelecturersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\lecturer\\managelecturersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\utilities\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:utilities\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\staffview\\managestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\staffview\\managestaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managetimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\lecturer\\managelecturersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\lecturer\\managelecturersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\managesubjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9B86729-7A98-4E64-8879-73131501625E}|UnicomTICManagementSystem.csproj|solutionrelative:views\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Shared\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -397,6 +397,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Staff\\StaffDashboardForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Staff\\StaffDashboardForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -406,17 +414,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\LoginSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "Views\\LoginSystem\\LoginForm.cs",
               "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\LoginSystem\\LoginForm.cs",
               "RelativeToolTip": "Views\\LoginSystem\\LoginForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T04:22:11.731Z",
               "IsPinned": true,
@@ -424,49 +432,232 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageMarksForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageMarksForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
-              "RelativeToolTip": "Views\\ManageMarksForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Utilities\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\DatabaseManager.cs",
+              "RelativeToolTip": "Utilities\\DatabaseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:05:18.782Z",
+              "WhenOpened": "2025-06-14T08:56:13.937Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "Models\\Students.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Students.cs",
+              "RelativeToolTip": "Models\\Students.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T03:52:27.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SubjectRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\SubjectRepository.cs",
+              "RelativeToolTip": "Repositories\\SubjectRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAD4v0UAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:12:35.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\CourseRepository.cs*",
+              "RelativeToolTip": "Repositories\\CourseRepository.cs*",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv5AAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:53:47.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:51:49.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:02:56.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageCoursesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\ManageCoursesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.Designer.cs",
+              "RelativeToolTip": "Views\\ManageCoursesForm.Designer.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T05:07:40.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ManageCoursesForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs",
               "RelativeDocumentMoniker": "Views\\ManageCoursesForm.cs",
               "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs [Design]",
               "RelativeToolTip": "Views\\ManageCoursesForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:25:16.443Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-18T11:25:16.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "ManageCoursesForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageCoursesForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs",
+              "RelativeToolTip": "Views\\ManageCoursesForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:34:59.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageCoursesForm.resx",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.resx",
+              "RelativeDocumentMoniker": "Views\\ManageCoursesForm.resx",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.resx",
+              "RelativeToolTip": "Views\\ManageCoursesForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-22T05:08:26.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:57:45.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StaffDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\StaffView\\StaffDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
+              "RelativeToolTip": "Views\\StaffView\\StaffDashboardForm.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwGEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:15:17.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ExamRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\ExamRepository.cs",
+              "RelativeToolTip": "Repositories\\ExamRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwEIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:54:12.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:01:56.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageMarksForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageMarksForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs [Design]",
+              "RelativeToolTip": "Views\\ManageMarksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:55:57.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StaffDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\StaffView\\StaffDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs [Design]",
+              "RelativeToolTip": "Views\\StaffView\\StaffDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:08:14.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageMarksForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageMarksForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
+              "RelativeToolTip": "Views\\ManageMarksForm.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAtwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:05:18.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AdminDashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs",
               "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs*",
-              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs",
+              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T12:16:27.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T12:16:27.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:54:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\LoginSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "Views\\LoginSystem\\LoginForm.cs",
@@ -478,304 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.cs [Design]*",
-              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:57:45.864Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManageCoursesForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageCoursesForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageCoursesForm.cs",
-              "RelativeToolTip": "Views\\ManageCoursesForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:34:59.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
-              "RelativeDocumentMoniker": "Views\\StudentsForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs [Design]",
-              "RelativeToolTip": "Views\\StudentsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:21:55.304Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StaffDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\StaffView\\StaffDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs [Design]",
-              "RelativeToolTip": "Views\\StaffView\\StaffDashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T04:08:14.638Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Staff.cs",
-              "RelativeDocumentMoniker": "Models\\Staff.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Staff.cs",
-              "RelativeToolTip": "Models\\Staff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:51:15.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Exam.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Exam.cs",
-              "RelativeDocumentMoniker": "Models\\Exam.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Exam.cs",
-              "RelativeToolTip": "Models\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:51:59.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StaffDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\StaffView\\StaffDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\StaffDashboardForm.cs",
-              "RelativeToolTip": "Views\\StaffView\\StaffDashboardForm.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAUwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T04:15:17.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MarkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\MarkRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MarkRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\MarkRepository.cs",
-              "RelativeToolTip": "Repositories\\MarkRepository.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAmwLoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:54:29.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManageStaffForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\ManageStaffForm.cs",
-              "RelativeDocumentMoniker": "Views\\StaffView\\ManageStaffForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\ManageStaffForm.cs [Design]",
-              "RelativeToolTip": "Views\\StaffView\\ManageStaffForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:58:04.55Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ExamRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\ExamRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ExamRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\ExamRepository.cs",
-              "RelativeToolTip": "Repositories\\ExamRepository.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAUwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:54:12.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LacturerDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
-              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:21:00.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LacturerDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs [Design]",
-              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:08:32.45Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminDashboardForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.Designer.cs",
-              "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboardForm.Designer.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.Designer.cs",
-              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.Designer.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAgwKMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:16:33.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Lecturer.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Lecturer.cs",
-              "RelativeDocumentMoniker": "Models\\Lecturer.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Lecturer.cs",
-              "RelativeToolTip": "Models\\Lecturer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T16:29:41.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:54:56.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:01:56.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:52:34.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LacturerDashboardForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
-              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
-              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAUwJgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:50:44.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Timetable.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Timetable.cs",
-              "RelativeDocumentMoniker": "Models\\Timetable.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Timetable.cs",
-              "RelativeToolTip": "Models\\Timetable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:53:04.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LectureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\LectureRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\LectureRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\LectureRepository.cs",
-              "RelativeToolTip": "Repositories\\LectureRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:51:45.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TimetableRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\TimetableRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TimetableRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\TimetableRepository.cs",
-              "RelativeToolTip": "Repositories\\TimetableRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:55:07.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StudentDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\StudentView\\StudentDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
-              "RelativeToolTip": "Views\\StudentView\\StudentDashboardForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:19:01.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ManageMarksForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageMarksForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageMarksForm.cs [Design]",
-              "RelativeToolTip": "Views\\ManageMarksForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T14:55:57.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ManageSubjectsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageSubjectsForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs [Design]",
-              "RelativeToolTip": "Views\\ManageSubjectsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:45:09.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "RoomForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\RoomForm.cs",
               "RelativeDocumentMoniker": "Views\\RoomForm.cs",
@@ -786,18 +680,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "StudentDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
-              "RelativeDocumentMoniker": "Views\\StudentView\\StudentDashboardForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs [Design]",
-              "RelativeToolTip": "Views\\StudentView\\StudentDashboardForm.cs [Design]",
+              "DocumentIndex": 20,
+              "Title": "RoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\RoomForm.cs",
+              "RelativeDocumentMoniker": "Views\\RoomForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\RoomForm.cs",
+              "RelativeToolTip": "Views\\RoomForm.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:08:49.112Z"
+              "WhenOpened": "2025-06-17T14:39:51.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 25,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "Controllers\\ExamController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:30:52.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageTimetableForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageTimetableForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageTimetableForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageTimetableForm.cs",
+              "RelativeToolTip": "Views\\ManageTimetableForm.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwCoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:21:12.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:44:00.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv2sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:54:56.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StudentsForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
+              "RelativeDocumentMoniker": "Views\\StudentsForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
+              "RelativeToolTip": "Views\\StudentsForm.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAMwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:27:50.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LectureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\LectureRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LectureRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\LectureRepository.cs",
+              "RelativeToolTip": "Repositories\\LectureRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAApwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:51:45.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StudentsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
+              "RelativeDocumentMoniker": "Views\\StudentsForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs [Design]",
+              "RelativeToolTip": "Views\\StudentsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:21:55.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "ManageTimetableForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageTimetableForm.cs",
               "RelativeDocumentMoniker": "Views\\ManageTimetableForm.cs",
@@ -808,7 +786,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ManageSubjectsForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageSubjectsForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
+              "RelativeToolTip": "Views\\ManageSubjectsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:49:50.457Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "ManageSubjectsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
+              "RelativeDocumentMoniker": "Views\\ManageSubjectsForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs [Design]",
+              "RelativeToolTip": "Views\\ManageSubjectsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:45:09.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ExamForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ExamForm.cs",
               "RelativeDocumentMoniker": "Views\\ExamForm.cs",
@@ -819,62 +820,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ManageUsersForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
-              "RelativeDocumentMoniker": "Views\\UsersSystem\\ManageUsersForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs [Design]",
-              "RelativeToolTip": "Views\\UsersSystem\\ManageUsersForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T05:41:59.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ManageUsersForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
-              "RelativeDocumentMoniker": "Views\\UsersSystem\\ManageUsersForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
-              "RelativeToolTip": "Views\\UsersSystem\\ManageUsersForm.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T05:45:38.066Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "TimetableController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\TimetableController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TimetableController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\TimetableController.cs",
-              "RelativeToolTip": "Controllers\\TimetableController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowEAAAAAJAAAAAAAAAA==",
+              "Title": "StudentDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\StudentView\\StudentDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs [Design]",
+              "RelativeToolTip": "Views\\StudentView\\StudentDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T16:11:45.68Z"
+              "WhenOpened": "2025-06-18T10:08:49.112Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\AuthHelper.cs",
+              "RelativeToolTip": "Utilities\\AuthHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:12:18.184Z"
+              "WhenOpened": "2025-06-14T08:56:02.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\StudentView\\StudentDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentView\\StudentDashboardForm.cs",
+              "RelativeToolTip": "Views\\StudentView\\StudentDashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:19:01.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "SubjectController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\SubjectController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SubjectController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\SubjectController.cs",
-              "RelativeToolTip": "Controllers\\SubjectController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "Models\\Exam.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Exam.cs",
+              "RelativeToolTip": "Models\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:44:00.804Z"
+              "WhenOpened": "2025-06-14T08:51:59.658Z"
             },
             {
               "$type": "Document",
@@ -903,30 +892,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "Controllers\\RoomController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:28:32.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "MarksController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\MarksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MarksController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\MarksController.cs",
-              "RelativeToolTip": "Controllers\\MarksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:48:03.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "Controllers\\LecturerController.cs",
@@ -938,31 +903,208 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ExamController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\ExamController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\ExamController.cs",
-              "RelativeToolTip": "Controllers\\ExamController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 41,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Staff.cs",
+              "RelativeToolTip": "Models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:30:52.806Z"
+              "WhenOpened": "2025-06-18T15:51:15.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MarkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\MarkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MarkRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\MarkRepository.cs",
+              "RelativeToolTip": "Repositories\\MarkRepository.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAmwLoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:54:29.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ManageStaffForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\ManageStaffForm.cs",
+              "RelativeDocumentMoniker": "Views\\StaffView\\ManageStaffForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\ManageStaffForm.cs [Design]",
+              "RelativeToolTip": "Views\\StaffView\\ManageStaffForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:58:04.55Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Title": "LacturerDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
+              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:02:56.765Z"
+              "WhenOpened": "2025-06-19T15:21:00.386Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
+              "Title": "LacturerDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.cs [Design]",
+              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:08:32.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AdminDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Admin\\AdminDashboardForm.Designer.cs",
+              "RelativeToolTip": "Views\\Admin\\AdminDashboardForm.Designer.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwKMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:16:33.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Models\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Lecturer.cs",
+              "RelativeToolTip": "Models\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:29:41.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:52:34.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LacturerDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
+              "RelativeToolTip": "Views\\Lecturer\\LacturerDashboardForm.Designer.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:50:44.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Timetable.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Timetable.cs",
+              "RelativeDocumentMoniker": "Models\\Timetable.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Timetable.cs",
+              "RelativeToolTip": "Models\\Timetable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:53:04.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TimetableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\TimetableRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TimetableRepository.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\TimetableRepository.cs",
+              "RelativeToolTip": "Repositories\\TimetableRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:55:07.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ManageUsersForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "Views\\UsersSystem\\ManageUsersForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs [Design]",
+              "RelativeToolTip": "Views\\UsersSystem\\ManageUsersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:41:59.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ManageUsersForm.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "Views\\UsersSystem\\ManageUsersForm.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.cs",
+              "RelativeToolTip": "Views\\UsersSystem\\ManageUsersForm.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:45:38.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TimetableController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\TimetableController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TimetableController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\TimetableController.cs",
+              "RelativeToolTip": "Controllers\\TimetableController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T16:11:45.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:12:18.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Controllers\\RoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:28:32.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MarksController.cs",
+              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\MarksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarksController.cs",
+              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Controllers\\MarksController.cs",
+              "RelativeToolTip": "Controllers\\MarksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:48:03.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "StaffRepository.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\StaffRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StaffRepository.cs",
@@ -974,7 +1116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "Marks.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Marks.cs",
               "RelativeDocumentMoniker": "Models\\Marks.cs",
@@ -986,7 +1128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "Models\\Subject.cs",
@@ -998,19 +1140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "SubjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\SubjectRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\SubjectRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\SubjectRepository.cs",
-              "RelativeToolTip": "Repositories\\SubjectRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:12:35.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 60,
               "Title": "ExamForm.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ExamForm.cs",
               "RelativeDocumentMoniker": "Views\\ExamForm.cs",
@@ -1022,19 +1152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "DatabaseManager.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\DatabaseManager.cs",
-              "RelativeDocumentMoniker": "Utilities\\DatabaseManager.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\DatabaseManager.cs",
-              "RelativeToolTip": "Utilities\\DatabaseManager.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:56:13.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "ManageUsersForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\UsersSystem\\ManageUsersForm.Designer.cs",
               "RelativeDocumentMoniker": "Views\\UsersSystem\\ManageUsersForm.Designer.cs",
@@ -1046,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 99,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -1058,7 +1176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -1070,19 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\Logger.cs",
-              "RelativeDocumentMoniker": "Utilities\\Logger.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\Logger.cs",
-              "RelativeToolTip": "Utilities\\Logger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:56:24.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 63,
               "Title": "ManageLecturersForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\ManageLecturersForm.cs",
               "RelativeDocumentMoniker": "Views\\Lecturer\\ManageLecturersForm.cs",
@@ -1093,43 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "AuthHelper.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\AuthHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\AuthHelper.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Utilities\\AuthHelper.cs",
-              "RelativeToolTip": "Utilities\\AuthHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:56:02.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RoomRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\RoomRepository.cs",
-              "RelativeToolTip": "Repositories\\RoomRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAwAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:54:43.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Repositories\\CourseRepository.cs",
-              "RelativeToolTip": "Repositories\\CourseRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:53:47.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Models\\Room.cs",
@@ -1141,19 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "Models\\Course.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Models\\Course.cs",
-              "RelativeToolTip": "Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:51:49.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "ManageStaffForm.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StaffView\\ManageStaffForm.cs",
               "RelativeDocumentMoniker": "Views\\StaffView\\ManageStaffForm.cs",
@@ -1161,24 +1219,11 @@
               "RelativeToolTip": "Views\\StaffView\\ManageStaffForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:25:25.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:25:25.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "ManageTimetableForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageTimetableForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageTimetableForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageTimetableForm.cs",
-              "RelativeToolTip": "Views\\ManageTimetableForm.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:21:12.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "ManageLecturersForm.cs",
               "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\Lecturer\\ManageLecturersForm.cs",
               "RelativeDocumentMoniker": "Views\\Lecturer\\ManageLecturersForm.cs",
@@ -1187,31 +1232,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T16:01:15.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "StudentsForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
-              "RelativeDocumentMoniker": "Views\\StudentsForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\StudentsForm.cs",
-              "RelativeToolTip": "Views\\StudentsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:27:50.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "ManageSubjectsForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
-              "RelativeDocumentMoniker": "Views\\ManageSubjectsForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\ManageSubjectsForm.cs",
-              "RelativeToolTip": "Views\\ManageSubjectsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:49:50.457Z"
             },
             {
               "$type": "Document",
@@ -1256,18 +1276,6 @@
               "RelativeToolTip": "Views\\Lecturer\\LecturerDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T12:49:53.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "RoomForm.cs",
-              "DocumentMoniker": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\RoomForm.cs",
-              "RelativeDocumentMoniker": "Views\\RoomForm.cs",
-              "ToolTip": "C:\\Users\\divik\\OneDrive\\Documents\\Assingment\\UnicomTICManagementSystem\\Views\\RoomForm.cs",
-              "RelativeToolTip": "Views\\RoomForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:39:51.063Z"
             },
             {
               "$type": "Document",
