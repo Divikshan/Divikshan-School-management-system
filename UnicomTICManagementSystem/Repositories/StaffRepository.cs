@@ -16,22 +16,24 @@ namespace UnicomTICManagementSystem.Repositories
 
         public void AddStaff(Staff staff)
         {
-            string query = "INSERT INTO Staff (Name, UserID) VALUES (@Name, @UserID)";
+            string query = "INSERT INTO Staff (Name, Username, Password) VALUES (@Name, @Username, @Password)";
             using (var cmd = new SQLiteCommand(query, connection))
             {
                 cmd.Parameters.AddWithValue("@Name", staff.Name);
-                cmd.Parameters.AddWithValue("@UserID", staff.UserID);
+                cmd.Parameters.AddWithValue("@Username", staff.Username);
+                cmd.Parameters.AddWithValue("@Password", staff.Password);
                 cmd.ExecuteNonQuery();
             }
         }
 
         public void UpdateStaff(Staff staff)
         {
-            string query = "UPDATE Staff SET Name = @Name, UserID = @UserID WHERE StaffID = @StaffID";
+            string query = "UPDATE Staff SET Name = @Name, Username = @Username, Password = @Password WHERE StaffID = @StaffID";
             using (var cmd = new SQLiteCommand(query, connection))
             {
                 cmd.Parameters.AddWithValue("@Name", staff.Name);
-                cmd.Parameters.AddWithValue("@UserID", staff.UserID);
+                cmd.Parameters.AddWithValue("@Username", staff.Username);
+                cmd.Parameters.AddWithValue("@Password", staff.Password);
                 cmd.Parameters.AddWithValue("@StaffID", staff.StaffID);
                 cmd.ExecuteNonQuery();
             }
@@ -60,7 +62,8 @@ namespace UnicomTICManagementSystem.Repositories
                     {
                         StaffID = int.Parse(reader["StaffID"].ToString()),
                         Name = reader["Name"].ToString(),
-                        UserID = int.Parse(reader["UserID"].ToString())
+                        Username = reader["Username"].ToString(),
+                        Password = reader["Password"].ToString()
                     });
                 }
             }

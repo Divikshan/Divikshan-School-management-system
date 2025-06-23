@@ -73,6 +73,7 @@
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -82,6 +83,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -91,6 +93,7 @@
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvSubject
             // 
@@ -102,7 +105,7 @@
             this.dgvSubject.RowTemplate.Height = 24;
             this.dgvSubject.Size = new System.Drawing.Size(781, 302);
             this.dgvSubject.TabIndex = 4;
-            this.dgvSubject.SelectionChanged += new System.EventHandler(this.dgvSubject_SelectionChanged); // ✅ Event wired here
+            this.dgvSubject.SelectionChanged += new System.EventHandler(this.dgvSubject_SelectionChanged);
             // 
             // btnBackToDashboard
             // 
@@ -112,6 +115,7 @@
             this.btnBackToDashboard.TabIndex = 3;
             this.btnBackToDashboard.Text = "Back";
             this.btnBackToDashboard.UseVisualStyleBackColor = true;
+            this.btnBackToDashboard.Click += new System.EventHandler(this.btnBackToDashboard_Click);
             // 
             // ManageSubjectsForm
             // 
@@ -134,6 +138,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSubject)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

@@ -98,6 +98,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add Lecturer";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -107,6 +108,7 @@
             this.btnUpdate.TabIndex = 2;
             this.btnUpdate.Text = "Update Lecturer";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -116,6 +118,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete Lecturer";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvLecturers
             // 
@@ -136,11 +139,13 @@
             this.btnBack.TabIndex = 2;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // ManageLecturersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(955, 727);
             this.Controls.Add(this.dgvLecturers);
             this.Controls.Add(this.btnBack);

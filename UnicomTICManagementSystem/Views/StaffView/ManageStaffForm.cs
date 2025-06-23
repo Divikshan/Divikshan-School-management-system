@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Xml.Linq;
 using UnicomTICManagementSystem.Controllers;
 using UnicomTICManagementSystem.Models;
 
@@ -8,7 +7,7 @@ namespace UnicomTICManagementSystem.Views
 {
     public partial class ManageStaffForm : Form
     {
-        private StaffController staffController;
+        private readonly StaffController staffController;
         private int selectedStaffId = -1;
         private Form parentForm;
 
@@ -16,35 +15,44 @@ namespace UnicomTICManagementSystem.Views
         {
             InitializeComponent();
             parentForm = parent;
-        }
-
-
-        public ManageStaffForm()
-        {
-            InitializeComponent();
             staffController = new StaffController();
         }
 
         private void ManageStaffForm_Load(object sender, EventArgs e)
         {
-            LoadStaff();
+            LoadStaffs();
         }
 
-        private void LoadStaff()
+        private void LoadStaffs()
         {
             dgvStaffs.DataSource = staffController.GetAllStaffs();
+
+            // Hide password column
+            if (dgvStaffs.Columns["Password"] != null)
+                dgvStaffs.Columns["Password"].Visible = false;
+
+            ClearInputs();
         }
 
         private void ClearInputs()
         {
-            txtName.Text = "";
-            txtUsername.Text = "";
-            txtPassword.Text = "";
+            txtName.Clear();
+            txtUsername.Clear();
+            txtPassword.Clear();
             selectedStaffId = -1;
+            dgvStaffs.ClearSelection();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtName.Text) ||
+                string.IsNullOrWhiteSpace(txtUsername.Text) ||
+                string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                MessageBox.Show("Please fill all fields.");
+                return;
+            }
+
             Staff staff = new Staff
             {
                 Name = txtName.Text.Trim(),
@@ -52,8 +60,16 @@ namespace UnicomTICManagementSystem.Views
                 Password = txtPassword.Text.Trim()
             };
 
-            staffController.AddStaff(staff);
-            LoadStaff();
+            bool added = staffController.AddStaff(staff);
+
+            if (!added)
+            {
+                MessageBox.Show("Username already exists. Try another one.", "Duplicate Error");
+                return;
+            }
+
+            MessageBox.Show("Staff added successfully.");
+            LoadStaffs();
             ClearInputs();
         }
 
@@ -62,6 +78,14 @@ namespace UnicomTICManagementSystem.Views
             if (selectedStaffId == -1)
             {
                 MessageBox.Show("Please select a staff to update.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtName.Text) ||
+                string.IsNullOrWhiteSpace(txtUsername.Text) ||
+                string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                MessageBox.Show("Please fill all fields.");
                 return;
             }
 
@@ -74,7 +98,8 @@ namespace UnicomTICManagementSystem.Views
             };
 
             staffController.UpdateStaff(staff);
-            LoadStaff();
+            MessageBox.Show("Staff updated successfully.");
+            LoadStaffs();
             ClearInputs();
         }
 
@@ -86,8 +111,12 @@ namespace UnicomTICManagementSystem.Views
                 return;
             }
 
+            var confirm = MessageBox.Show("Are you sure you want to delete this staff?", "Confirm", MessageBoxButtons.YesNo);
+            if (confirm != DialogResult.Yes) return;
+
             staffController.DeleteStaff(selectedStaffId);
-            LoadStaff();
+            MessageBox.Show("Staff deleted successfully.");
+            LoadStaffs();
             ClearInputs();
         }
 
@@ -106,10 +135,7 @@ namespace UnicomTICManagementSystem.Views
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
-            if (parentForm != null)
-            {
-                parentForm.Show();
-            }
+            parentForm?.Show();
         }
     }
 }

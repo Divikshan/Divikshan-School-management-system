@@ -23,7 +23,6 @@ C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
-C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.LecturerDashboardForm.resources
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.StaffDashboardForm.resources
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.dll
@@ -32,3 +31,4 @@ C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.xml
 C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\divik\OneDrive\Documents\Assingment\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe.config

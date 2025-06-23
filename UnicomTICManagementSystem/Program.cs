@@ -12,7 +12,7 @@ namespace UnicomTICManagementSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // ✅ Database create + tables insert பண்ண இது முக்கியம்
+            
             DatabaseManager.InitializeDatabase();
 
             Application.Run(new Views.LoginForm());

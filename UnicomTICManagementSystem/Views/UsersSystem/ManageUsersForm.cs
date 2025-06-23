@@ -8,13 +8,20 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
 {
     public partial class ManageUsersForm : Form
     {
+        private Form parentForm;
         private UserController userController = new UserController();
         private int selectedUserId = -1;
 
-        public ManageUsersForm()
+        public ManageUsersForm(Form parent)
         {
             InitializeComponent();
-            cmbRole.Items.AddRange(new string[] { "Admin", "Lecturer", "Staff", "Student" });
+
+            parentForm = parent ?? throw new ArgumentNullException(nameof(parent));
+
+            // Only Lecturer, Staff, Student roles allowed here (Admin excluded)
+            cmbRole.Items.AddRange(new string[] { "Lecturer", "Staff", "Student" });
+
+            LoadUsers();
         }
 
         private void ManageUsersForm_Load(object sender, EventArgs e)
@@ -25,9 +32,16 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
         private void LoadUsers()
         {
             List<Users> users = userController.GetAllUsers();
+
+            // Remove admin users from display (safety)
+            users.RemoveAll(u => u.Role == "Admin" || u.Username.ToLower() == "admin");
+
             dgvUsers.DataSource = null;
             dgvUsers.DataSource = users;
-            dgvUsers.Columns["Password"].Visible = false;  // Hide password column for security
+
+            if (dgvUsers.Columns["Password"] != null)
+                dgvUsers.Columns["Password"].Visible = false;
+
             ClearInputs();
         }
 
@@ -42,14 +56,16 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
                 Role = cmbRole.SelectedItem.ToString()
             };
 
-            if (userController.AddUser(user))
+            bool added = userController.AddUser(user);
+
+            if (added)
             {
                 MessageBox.Show("User added successfully.", "Success");
                 LoadUsers();
             }
             else
             {
-                MessageBox.Show("Failed to add user. Please check inputs.", "Error");
+                MessageBox.Show("Failed to add user. Username may already exist or inputs are invalid.", "Error");
             }
         }
 
@@ -60,6 +76,7 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
                 MessageBox.Show("Select a user to update.", "Warning");
                 return;
             }
+
             if (!ValidateInputs()) return;
 
             var user = new Users
@@ -70,14 +87,16 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
                 Role = cmbRole.SelectedItem.ToString()
             };
 
-            if (userController.UpdateUser(user))
+            bool updated = userController.UpdateUser(user);
+
+            if (updated)
             {
                 MessageBox.Show("User updated successfully.", "Success");
                 LoadUsers();
             }
             else
             {
-                MessageBox.Show("Failed to update user.", "Error");
+                MessageBox.Show("Failed to update user. Username may already exist or inputs are invalid.", "Error");
             }
         }
 
@@ -92,7 +111,9 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
             var confirm = MessageBox.Show("Are you sure you want to delete this user?", "Confirm Delete", MessageBoxButtons.YesNo);
             if (confirm == DialogResult.Yes)
             {
-                if (userController.DeleteUser(selectedUserId))
+                bool deleted = userController.DeleteUser(selectedUserId);
+
+                if (deleted)
                 {
                     MessageBox.Show("User deleted successfully.", "Success");
                     LoadUsers();
@@ -104,23 +125,23 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
             }
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            ClearInputs();
+            this.Close();
+            parentForm.Show();
         }
 
         private void dgvUsers_SelectionChanged(object sender, EventArgs e)
         {
-            if (dgvUsers.CurrentRow != null)
+            if (dgvUsers.DataSource == null || dgvUsers.CurrentRow == null) return;
+
+            var user = dgvUsers.CurrentRow.DataBoundItem as Users;
+            if (user != null)
             {
-                var user = dgvUsers.CurrentRow.DataBoundItem as Users;
-                if (user != null)
-                {
-                    selectedUserId = user.UserID;
-                    txtUsername.Text = user.Username;
-                    txtPassword.Text = user.Password;
-                    cmbRole.SelectedItem = user.Role;
-                }
+                selectedUserId = user.UserID;
+                txtUsername.Text = user.Username;
+                txtPassword.Text = user.Password;
+                cmbRole.SelectedItem = user.Role;
             }
         }
 
@@ -156,5 +177,4 @@ namespace UnicomTICManagementSystem.Views.UsersSystem
             dgvUsers.ClearSelection();
         }
     }
-    }
-
+}

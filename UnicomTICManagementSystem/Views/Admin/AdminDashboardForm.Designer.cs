@@ -39,12 +39,13 @@
             this.BStaff = new System.Windows.Forms.Button();
             this.BLecturers = new System.Windows.Forms.Button();
             this.BRoom = new System.Windows.Forms.Button();
+            this.BUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(311, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(460, 69);
@@ -53,6 +54,7 @@
             // 
             // BCourses
             // 
+            this.BCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BCourses.Location = new System.Drawing.Point(112, 169);
             this.BCourses.Name = "BCourses";
             this.BCourses.Size = new System.Drawing.Size(172, 60);
@@ -63,6 +65,7 @@
             // 
             // BSubject
             // 
+            this.BSubject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BSubject.Location = new System.Drawing.Point(354, 169);
             this.BSubject.Name = "BSubject";
             this.BSubject.Size = new System.Drawing.Size(172, 60);
@@ -73,6 +76,7 @@
             // 
             // BStudent
             // 
+            this.BStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BStudent.Location = new System.Drawing.Point(599, 169);
             this.BStudent.Name = "BStudent";
             this.BStudent.Size = new System.Drawing.Size(172, 60);
@@ -83,6 +87,7 @@
             // 
             // BExam
             // 
+            this.BExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BExam.Location = new System.Drawing.Point(830, 169);
             this.BExam.Name = "BExam";
             this.BExam.Size = new System.Drawing.Size(172, 60);
@@ -93,6 +98,7 @@
             // 
             // BMarks
             // 
+            this.BMarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BMarks.Location = new System.Drawing.Point(112, 305);
             this.BMarks.Name = "BMarks";
             this.BMarks.Size = new System.Drawing.Size(172, 60);
@@ -103,6 +109,7 @@
             // 
             // BTimetable
             // 
+            this.BTimetable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTimetable.Location = new System.Drawing.Point(354, 305);
             this.BTimetable.Name = "BTimetable";
             this.BTimetable.Size = new System.Drawing.Size(172, 60);
@@ -113,6 +120,7 @@
             // 
             // btnLogout
             // 
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.Location = new System.Drawing.Point(881, 512);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(121, 38);
@@ -123,6 +131,7 @@
             // 
             // BStaff
             // 
+            this.BStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BStaff.Location = new System.Drawing.Point(599, 305);
             this.BStaff.Name = "BStaff";
             this.BStaff.Size = new System.Drawing.Size(172, 60);
@@ -133,6 +142,7 @@
             // 
             // BLecturers
             // 
+            this.BLecturers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLecturers.Location = new System.Drawing.Point(830, 305);
             this.BLecturers.Name = "BLecturers";
             this.BLecturers.Size = new System.Drawing.Size(172, 60);
@@ -143,13 +153,25 @@
             // 
             // BRoom
             // 
-            this.BRoom.Location = new System.Drawing.Point(481, 444);
+            this.BRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BRoom.Location = new System.Drawing.Point(485, 447);
             this.BRoom.Name = "BRoom";
             this.BRoom.Size = new System.Drawing.Size(172, 60);
             this.BRoom.TabIndex = 1;
             this.BRoom.Text = "Manage Room";
             this.BRoom.UseVisualStyleBackColor = true;
             this.BRoom.Click += new System.EventHandler(this.BRoom_Click_1);
+            // 
+            // BUser
+            // 
+            this.BUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BUser.Location = new System.Drawing.Point(189, 447);
+            this.BUser.Name = "BUser";
+            this.BUser.Size = new System.Drawing.Size(172, 60);
+            this.BUser.TabIndex = 1;
+            this.BUser.Text = "Manage User";
+            this.BUser.UseVisualStyleBackColor = true;
+            this.BUser.Click += new System.EventHandler(this.BUsers_Click);
             // 
             // AdminDashboardForm
             // 
@@ -162,6 +184,7 @@
             this.Controls.Add(this.BStaff);
             this.Controls.Add(this.BTimetable);
             this.Controls.Add(this.BStudent);
+            this.Controls.Add(this.BUser);
             this.Controls.Add(this.BRoom);
             this.Controls.Add(this.BMarks);
             this.Controls.Add(this.BSubject);
@@ -189,5 +212,6 @@
         private System.Windows.Forms.Button BStaff;
         private System.Windows.Forms.Button BLecturers;
         private System.Windows.Forms.Button BRoom;
+        private System.Windows.Forms.Button BUser;
     }
 }

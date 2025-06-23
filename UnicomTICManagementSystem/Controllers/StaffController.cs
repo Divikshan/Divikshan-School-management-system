@@ -6,31 +6,31 @@ namespace UnicomTICManagementSystem.Controllers
 {
     public class StaffController
     {
-        private StaffRepository staffRepository;
+        private StaffRepository staffRepo = new StaffRepository();
 
-        public StaffController()
+        public List<Staff> GetAllStaffs()
         {
-            staffRepository = new StaffRepository();
+            return staffRepo.GetAllStaff();
         }
 
-        public void AddStaff(Staff staff)
+        public bool AddStaff(Staff staff)
         {
-            staffRepository.AddStaff(staff);
+            // Check for existing username
+            var existing = staffRepo.GetAllStaff().Find(s => s.Username.ToLower() == staff.Username.ToLower());
+            if (existing != null) return false;
+
+            staffRepo.AddStaff(staff);
+            return true;
         }
 
         public void UpdateStaff(Staff staff)
         {
-            staffRepository.UpdateStaff(staff);
+            staffRepo.UpdateStaff(staff);
         }
 
-        public void DeleteStaff(int id)
+        public void DeleteStaff(int staffId)
         {
-            staffRepository.DeleteStaff(id);
-        }
-
-        public List<Staff> GetAllStaffs()
-        {
-            return staffRepository.GetAllStaff();
+            staffRepo.DeleteStaff(staffId);
         }
     }
 }

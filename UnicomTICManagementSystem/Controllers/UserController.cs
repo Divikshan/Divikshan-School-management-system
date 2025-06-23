@@ -15,14 +15,19 @@ namespace UnicomTICManagementSystem.Controllers
 
         public bool AddUser(Users user)
         {
-            // Example validation before adding
-            if (string.IsNullOrWhiteSpace(user.Username) || string.IsNullOrWhiteSpace(user.Password) || string.IsNullOrWhiteSpace(user.Role))
+            if (string.IsNullOrWhiteSpace(user.Username) ||
+                string.IsNullOrWhiteSpace(user.Password) ||
+                string.IsNullOrWhiteSpace(user.Role))
+            {
                 return false;
+            }
 
-            // Could add more business rules here
+            if (userRepo.IsUsernameExists(user.Username))
+            {
+                return false; // Username already exists
+            }
 
-            userRepo.AddUser(user);
-            return true;
+            return userRepo.AddUser(user);
         }
 
         public bool UpdateUser(Users user)
@@ -30,10 +35,19 @@ namespace UnicomTICManagementSystem.Controllers
             if (user.UserID <= 0)
                 return false;
 
-            // Add validation or business logic here if needed
+            if (string.IsNullOrWhiteSpace(user.Username) ||
+                string.IsNullOrWhiteSpace(user.Password) ||
+                string.IsNullOrWhiteSpace(user.Role))
+            {
+                return false;
+            }
 
-            userRepo.UpdateUser(user);
-            return true;
+            if (userRepo.IsUsernameExists(user.Username, user.UserID))
+            {
+                return false; // Username conflict
+            }
+
+            return userRepo.UpdateUser(user);
         }
 
         public bool DeleteUser(int userId)

@@ -61,7 +61,7 @@ namespace UnicomTICManagementSystem.Utilities
                             UserID INTEGER PRIMARY KEY AUTOINCREMENT,
                             Username TEXT NOT NULL UNIQUE,
                             Password TEXT NOT NULL,
-                            Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Lecturer', 'Staff', 'Student'))
+                            Role TEXT NOT NULL CHECK (Role IN ( 'Lecturer', 'Staff', 'Student'))
                         )");
 
                     ExecuteNonQuery(connection, @"
@@ -151,10 +151,7 @@ namespace UnicomTICManagementSystem.Utilities
                             UNIQUE (RoomID, DayOfWeek, StartTime)
                         )");
 
-                    // Insert default admin user (password stored as plain text, consider hashing for production)
-                    ExecuteNonQuery(connection, @"
-                        INSERT INTO Users (Username, Password, Role)
-                        VALUES ('admin', 'admin123', 'Admin')");
+                 
 
                     // Insert sample rooms
                     ExecuteNonQuery(connection, @"
